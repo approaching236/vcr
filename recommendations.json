@@ -1,0 +1,74 @@
+{
+  "recommendations": [
+    {
+      "place": {
+        "latitude": 32.7289349,
+        "longitude": -117.1542304,
+        "address": null
+        "neighborhoods": [
+          "Balboa Park",
+          "Banker's Hill"
+        ]
+      }
+      "name": "1935 Cactus Garden",
+      "description": "The 1935 Cactus Garden is behind the Balboa Park Club and Puppet theater. It is a great little cactus garden full of some pretty big examples of slow growing cactus. There is a nice patio area with an my favorite aspect of this place: the chill vibes from the freeway below and the awesome views of the bridge across the way. ",
+      "energy": "chill",
+      "noise": "Freeway and the occasional plane",
+      "availability": "24/7",
+      "price": "",
+      "links": [
+        {
+          "url": "https://www.balboapark.org/gardens/1935-cactus",
+          "name": "About the 1935 Cactus Garden"
+        }
+      ]
+      "tags": ["Smoke a J", "Read a Book", "Naturalism"]
+    },
+    {
+      "place": {
+        "latitude": 32.881318,
+        "longitude": -117.251684,
+        "address": null,
+        "neighborhoods": [
+          "La Jolla",
+          "Black's Beach"
+        ]
+      },
+      "name": "Lifeguard Palapa",
+      "description": "At some point somebody tied a satallite dish up on poles, put some palm fronds on top and called it a palapa. The view from here is spectacular, an excellent location to have coffee and watch surfers in the morning, or just mellow out at sunset. Getting down can be most of the trouble, but there is parking near the corner of Blackgold Rd. and La Jolla Farms Rd. Take the paved road down to the beach and walk north for just a few minutes. You'll see it up a short trail above a wider section of the beach.",
+      "energy": "chill",
+      "noise": "Just massive crashing waves",
+      "availability": "technically closes",
+      "price": "",
+      "links": [
+        "url": "https://www.sandiego.gov/lifeguards/beaches/blacks",
+        "name": "Black's Beach"
+      ]
+      "tags": ["Smoke a Jay", "Read a Book", "Naturalism", "Sweat not Money"]
+    },
+    {
+      "place": {
+        "latitude": null,
+        "longitude": null,
+        "address": "505 kalmia",
+        "city": "San Diego",
+        "postal_code": "92101",
+        "neighborhoods": [
+          "Banker's Hill",
+          "Park West"
+        ]
+      },
+      "name": "Rick Lyon",
+      "description": "In the depths of the Imperial House, a legend plays a Casio keyboard. With resplendant hair, and even more resplendant chest hair, Lyon plays the best of oldies, 70's, 80's and today. You'll be treated to the Imperial House's usual dark wood and leather, nary a window to be seen. The experience is a little surreal. Highly recommended",
+      "energy": "boozin' and croonin'",
+      "noise": "midi drum tracks, tickled ivories and sumptuous vocals",
+      "availability": "Friday and Saturday evening",
+      "price": "$",
+      "links": [
+        "url": "https://www.imperialhouserestaurant.com/live-music",
+        "name": "Imperial House Restaurant"
+      ]
+      "tags": ["Dive Bar", "Good Bad", "Maybe not a First Date", "Sweat not Money"]
+    }
+  ]
+}

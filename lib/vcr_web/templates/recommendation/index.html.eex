@@ -1,0 +1,36 @@
+<h2>Listing Recommendations</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Energy</th>
+      <th>Noise</th>
+      <th>Availability</th>
+      <th>Price</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for recommendation <- @recommendations do %>
+    <tr>
+      <td><%= recommendation.name %></td>
+      <td><%= recommendation.description %></td>
+      <td><%= recommendation.energy %></td>
+      <td><%= recommendation.noise %></td>
+      <td><%= recommendation.availability %></td>
+      <td><%= recommendation.price %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: recommendation_path(@conn, :show, recommendation), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: recommendation_path(@conn, :edit, recommendation), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: recommendation_path(@conn, :delete, recommendation), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Recommendation", to: recommendation_path(@conn, :new) %></span>

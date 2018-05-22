@@ -1,0 +1,5 @@
+<h2>Edit Recommendation</h2>
+
+<%= render "form.html", Map.put(assigns, :action, recommendation_path(@conn, :update, @recommendation)) %>
+
+<span><%= link "Back", to: recommendation_path(@conn, :index) %></span>
